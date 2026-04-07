@@ -8,9 +8,9 @@ import java.util.List;
 import java.util.Optional;
 
 
-@RestController
+@org.springframework.web.bind.annotation.RestController
 @RequestMapping ("/api/produtos")
-public class ProdutoController {
+public class RestController {
 
     @Autowired
     private ProdutoService produtoService;
