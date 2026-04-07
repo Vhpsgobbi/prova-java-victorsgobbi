@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-
 @org.springframework.web.bind.annotation.RestController
 @RequestMapping ("/api/produtos")
 public class RestController {

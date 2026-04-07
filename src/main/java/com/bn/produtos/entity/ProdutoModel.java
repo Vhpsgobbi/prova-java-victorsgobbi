@@ -15,4 +15,5 @@ public class ProdutoModel {
     private String nome;
     private String descricao;
     private double preco;
+
 }
